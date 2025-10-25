@@ -42,8 +42,8 @@ A comprehensive gaming news hub featuring live streaming statistics, game review
 
 ### Backend
 - **Node.js** (Express.js) - API server and content delivery
-- **Python** (Selenium) - Web scraping for gaming data
-- **YouTube Data API v3** - Live streaming statistics
+- **Python** (YouTube Data API v3) - Game statistics and video data
+- **YouTube Data API v3** - Live streaming statistics and video information
 
 ### Infrastructure
 - **Caching**: NodeCache with TTL management (90% API call reduction)
@@ -97,6 +97,8 @@ A comprehensive gaming news hub featuring live streaming statistics, game review
    ```bash
    python app.py
    ```
+   
+   **Note**: The scraper now uses YouTube Data API v3 instead of Selenium. See [YOUTUBE_API_SETUP.md](./YOUTUBE_API_SETUP.md) for complete setup instructions.
 
 6. **Open the application**
    
